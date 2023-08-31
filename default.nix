@@ -1,4 +1,4 @@
-{ stdenv, lib, postgresql }: 
+{ stdenv, fetchFromGitHub, lib, postgresql }: 
 
 stdenv.mkDerivation {
   name = "pg_hashids";
